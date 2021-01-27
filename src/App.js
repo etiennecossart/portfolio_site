@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import { Pane } from 'evergreen-ui'
+import Header from './SectionComponents/Header'
+import Skills from './SectionComponents/Skills'
+import UnityGames from './SectionComponents/UnityGames'
+import Vision from './SectionComponents/Vision'
+import ReactProjects from './SectionComponents/ReactProjects'
+import PrintingStuff from './SectionComponents/PrintingStuff'
+import Footer from './SectionComponents/Footer'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Pane
+        background="green">
+        <header>
+          <Header />
+          <Vision />
+        </header>
+        <nav>
+          <Skills />
+        </nav>
+        <section>
+          <UnityGames />
+        </section>
+        <section>
+          <ReactProjects />
+        </section>
+        <section>
+          <PrintingStuff />
+        </section>
+        <footer>
+          <Footer />
+        </footer>
+      </Pane>
     </div>
   );
 }
