@@ -2,7 +2,23 @@
   text-align: center;
 }
 
-.App-logo {
+
+
+
+div {
+  border: none;
+}
+
+header {
+  background-color: aqua;
+  color: blueviolet;
+}
+
+section {
+  color: blueviolet;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
