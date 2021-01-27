@@ -17,6 +17,7 @@ function Header(){
                         <Heading> Hello World, Welcome to Etienne's Website!</Heading>
                     </Pane>
             </Pane>
+            <Button>LAUNCHED!!</Button>
             <Pane 
                             display="flex"
                             alignItems="center"
