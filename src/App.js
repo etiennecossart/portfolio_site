@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Pane
-        background="green">
+        background="orange">
         <header>
           <Header />
           <Vision />
