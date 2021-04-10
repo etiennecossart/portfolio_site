@@ -7,34 +7,16 @@ import Vision from './SectionComponents/Vision'
 import ReactProjects from './SectionComponents/ReactProjects'
 import PrintingStuff from './SectionComponents/PrintingStuff'
 import Footer from './SectionComponents/Footer'
+import Body from './SectionComponents/Body'
 
 
 
 function App() {
   return (
-    <div className="App">
-      <Pane
-        background="orange">
-        <header>
-          <Header />
-          <Vision />
-        </header>
-        <nav>
-          <Skills />
-        </nav>
-        <section>
-          <UnityGames />
-        </section>
-        <section>
-          <ReactProjects />
-        </section>
-        <section>
-          <PrintingStuff />
-        </section>
-        <footer>
-          <Footer />
-        </footer>
-      </Pane>
+    <div>
+      <Header />
+      <Vision />
+      <Body />
     </div>
   );
 }
