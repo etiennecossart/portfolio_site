@@ -20,7 +20,7 @@ function Header(){
                 height={majorScale(100)}> 
             <div>
                 <div className="greeting">
-                    <header>Welcome to my website!</header>
+                    <header>Welcome to my website!!</header>
                     <header><text>I'm <text className="my_name">Étienne Cossart</text>,</text></header>
                     <header>
                         <text>a </text> 
