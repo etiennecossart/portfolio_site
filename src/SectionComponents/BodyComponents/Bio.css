@@ -1,0 +1,94 @@
+.bio_body{
+  color: #1F1E1F;
+  font-size: medium;
+  background-color: #EFF5FB;
+  height: 100vh;
+  padding: 15%;
+  padding-top: 1%;
+}
+
+.bio_header{
+  font-size: 4em;
+  color: #ED7D3A;   /* Eerie Black */
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
+
+.bio_image{
+  height: auto;
+  width: 200px ;
+  border-radius: 50%;
+}
+
+.vision{
+  font-style: italic;
+  color: #53585A;   /* Davy Grey */
+}
+
+.skill_types{
+  margin: 2em;
+  color: #7AC5D6;   /* Eerie Black */
+  font-weight: bolder;
+}
+
+.oop:hover{
+  color: #FF5666;   /* Fiery Rose */
+}
+
+.data:hover{
+  color: #6369D1;   /* Violet Blue Crayola */
+
+}
+
+
+
+
+
+
+
+/* Include padding and border in total box size*/
+/* * {
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Create two equal columns that float next to each other */
+  /* .column-2 {
+    width: 45%;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    height: 475px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 70px;
+    background-color: #FEDE00;
+    line-height:2; 
+    display: inline-block;
+  } */ 

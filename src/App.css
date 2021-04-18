@@ -1,3 +1,59 @@
+
+.full_wrap{
+  margin: 0;
+  
+}
+
+.body_wrapper{
+  /* padding-left: 15%;
+  padding-right: 15%; */
+  background-color: #7AC5D6;
+}
+
+
+/* Colors I like */
+.useless_color_palete{
+  color: #1F1E1F;   /* Eerie Black */
+  color: #9197AB;   /* Manetee */
+  color: #EFF5FB;   /* Alice Blue */
+  color: #4B8AD2;   /* Bleu de France */
+  color: #7AC5D6;   /* Eerie Black */
+  color: #ED7D3A;   /* Princeton Orange */
+  color: #9BFC2B;   /* Eerie Black */
+  color: #FF5666;   /* Fiery Rose */
+  color: #53585A;   /* Davy Grey */
+  color: #363537;   /* Jet */
+  color: #6369D1;   /* Violet Blue Crayola */
+  color: #918868    /* Shadow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .App {
   text-align: center;
 } */
@@ -5,18 +61,10 @@
 
 
 
-/* div {
-  border: none;
-}
+/* 
 
-header {
-  background-color: aqua;
-  color: blueviolet;
-}
 
-section {
-  color: blueviolet;
-} */
+*/
 
 /* .App-logo {
   height: 40vmin;

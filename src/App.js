@@ -13,10 +13,12 @@ import Body from './SectionComponents/Body'
 
 function App() {
   return (
-    <div>
+    <div className="full_wrap">
       <Header />
-      <Vision />
-      <Body />
+      <body className="body_wrapper">
+        <Body />
+      </body>
+      
     </div>
   );
 }
