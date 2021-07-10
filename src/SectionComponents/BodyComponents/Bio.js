@@ -9,12 +9,12 @@ import BioPic from '../../Resources/etienne.jpg'
 function Bio(){
     return(
         <div className="bio_body">
-                    <h1 className="bio_header" >About Me</h1>
-                    <h3 className="vision">I'm a software engineer with a passion for learning, designing, and building technical solutions. </h3>                    <div className="bio_pic">
-                        <img className="bio_image" src={BioPic}/>
-                    </div>
+                <h1 className="bio_header" >About Me</h1>
+                <h3 className="vision">I'm a software engineer with a passion for learning, designing, and building technical solutions. </h3>                    <div className="bio_pic">
+                <img className="bio_image" src={BioPic}/>
+        </div>
                     
-                    <div>
+                    {/* <div>
                         <h2 className="skills">Technical Skills</h2>
                         <div className="skill_types">
                             <span>OOP</span>
@@ -42,7 +42,7 @@ function Bio(){
                             <li>Design: Unity</li>
                         </ul>
                     </div>
-                    
+                     */}
         </div>
     )}
 

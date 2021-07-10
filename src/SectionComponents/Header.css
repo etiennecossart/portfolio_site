@@ -34,7 +34,7 @@ header{
 }
 
 .my_name{
-    color: #ED7D3A;
+    color: var(--etienne_text);
     font-weight: bold;
     transition: all 0.5s;
     cursor: pointer;
@@ -42,7 +42,7 @@ header{
 }
 
 .my_name:hover{
-    color: #7AC5D6;
+    color: var(--etienne_text);;
     transition: 0.5s;
 }
 

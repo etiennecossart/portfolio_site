@@ -5,41 +5,55 @@
   height: 100vh;
   padding: 15%;
   padding-top: 1%;
+  display: grid;
+  grid-template: repeat(12,1fr)/repeat(12,1fr);
+  grid-template-areas: 
+    "h h h h h h h h h h h h"
+    "h h h h h h h h h h h h"
+    "i i i i v v v v v v v v"
+    "i i i i v v v v v v v v"
+    "i i i i v v v v v v v v"
+    "i i i i v v v v v v v v"
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . .";
+
 }
 
 .bio_header{
-  font-size: 4em;
-  color: #ED7D3A;   /* Eerie Black */
-  text-align: center;
+  grid-area: h;
+  /* grid-column: 1/-1;
+  grid-row: 1fr;
+  font-size: 4em; */
+  color: var(--etienne_text);;   /* Eerie Black */
   text-decoration: underline;
   text-decoration-thickness: 4px;
 }
 
 .bio_image{
+  grid-area: i;
+  /* grid-column: 3fr;
+  grid-row: 2/5;
+
+  border-radius: 50%; */
   height: auto;
   width: 200px ;
-  border-radius: 50%;
 }
 
 .vision{
+  /* grid-column: 9fr;
+  grid-row: 6/-1; */
+  grid-area: v;
+
+
   font-style: italic;
   color: #53585A;   /* Davy Grey */
 }
 
-.skill_types{
-  margin: 2em;
-  color: #7AC5D6;   /* Eerie Black */
-  font-weight: bolder;
-}
 
-.oop:hover{
-  color: #FF5666;   /* Fiery Rose */
-}
-
-.data:hover{
-  color: #6369D1;   /* Violet Blue Crayola */
-
-}
 
 
 

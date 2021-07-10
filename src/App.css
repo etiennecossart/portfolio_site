@@ -12,20 +12,25 @@
 
 
 /* Colors I like */
-.useless_color_palete{
-  color: #1F1E1F;   /* Eerie Black */
-  color: #9197AB;   /* Manetee */
-  color: #EFF5FB;   /* Alice Blue */
-  color: #4B8AD2;   /* Bleu de France */
-  color: #7AC5D6;   /* Eerie Black */
-  color: #ED7D3A;   /* Princeton Orange */
-  color: #9BFC2B;   /* Eerie Black */
-  color: #FF5666;   /* Fiery Rose */
-  color: #53585A;   /* Davy Grey */
-  color: #363537;   /* Jet */
-  color: #6369D1;   /* Violet Blue Crayola */
-  color: #918868    /* Shadow */
+:root {
+  --blue: #4B8AD2; /* Bleu de France */
+  --red: #FF5666; /* Fiery Rose */
+  --dark_gray: #53585A;/* Davy Grey */
+  --purple: #6369D1;   /* Violet Blue Crayola */
+  --background_black: #363537; /* Jet */
+  --gold: #918868 ;   /* Shadow */
+  --light_blue:  #7AC5D6;/* Eerie Black */
+
+
+  /* named */
+  --light_gray_background: #9197AB; /* Manetee */
+  --etienne_text: #ED7D3A; /* Princeton Orange */
+  --simple_text:  #1F1E1F;   /* Eerie Black */
+  --white: #EFF5FB;   /* Alice Blue */
+  --code_color: #9BFC2B;   /* Eerie Black */
+
 }
+
 
 
 

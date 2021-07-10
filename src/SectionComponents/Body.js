@@ -3,6 +3,7 @@ import { Pane, Button, Text, majorScale, Heading, TranslateIcon} from 'evergreen
 import Bio from './BodyComponents/Bio'
 import Printing from './BodyComponents/Printing'
 import MMPy from './BodyComponents/MMPy'
+import GroceryList from "./BodyComponents/GroceryList";
 import './Body.css'
 
 export default class body extends Component {
@@ -10,7 +11,8 @@ export default class body extends Component {
         return(
             <div id="Bio" className="main_body">
                 <Bio />
-                <MMPy />
+                {/* <MMPy />
+                <GroceryList /> */}
             </div>
         )}}
 
