@@ -8,15 +8,18 @@ import ReactProjects from './SectionComponents/ReactProjects'
 import PrintingStuff from './SectionComponents/PrintingStuff'
 import Footer from './SectionComponents/Footer'
 import Body from './SectionComponents/Body'
+import MeditationClock from './SectionComponents/MeditationClock'
 
 
 
 function App() {
   return (
-    <div>
+    <div className="full_wrap">
       <Header />
-      <Vision />
       <Body />
+      <MeditationClock />
+      {/* </body> */}
+      
     </div>
   );
 }

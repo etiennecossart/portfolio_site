@@ -11,54 +11,67 @@ function Header(){
     return(
         <div className="header">
             <Pane
+                border="none"
                 margin={0}
-                background="overlay"
                 textAlign="center"
                 alignItems="center"
                 justifyContent="center"
-                border="default"
                 height={majorScale(100)}> 
             <div>
                 <div className="greeting">
                     <header>Welcome to my website!!</header>
-                    <header><text>I'm <text className="my_name">Étienne Cossart</text>,</text></header>
+                    <header><text>I'm <text className="my_name"><Link activeClass="active" to="Bio" spy={true} smooth={true}>Etienne Cossart</Link></text>, a</text></header>
                     <header>
-                        <text>a </text> 
+                        {/* <text>a </text>  */}
                         <text className="typer">
                             <Typical 
                                 loop={Infinity}
-                                wrapper="b"
+                                wrapper="n"
                                 steps={[
                                         'software developer',
-                                        2000,
-                                        'backend enginner',
-                                        2000,
+                                        2500,
+                                        'backend engineer',
+                                        2500,
                                         'big data engineer',
-                                        2000,
+                                        2500,
                                         'frontend developer',
-                                        2000,
-                                        'fast / avid learner',
-                                        2000,
-                                        '3D printing designer',
-                                        2000,
+                                        2500,
+                                        'fast & avid learner',
+                                        2500,
+                                        '3D printing creator',
+                                        2500,
                                         'whiteboard enthusist',
-                                        2000,
+                                        2500,
                                         'creative problem solver',
-                                        2000
+                                        2500
                                     ]}
                             />
                         </text>
                     </header>  
                 </div>
             </div>
-            <div className="Navigator">
-                <Pane>
+            <div className="checkout_wrapper">
+                <Link activeClass="active" to="Bio" spy={true} smooth={true}>
+                    <button class="button"><span>View Portfolio</span></button>
+                </Link>
+
+
+
+
+
+
+
+                
+                {/* <Pane>
                     <ul>
-                        <Button height={50} margin="2%" appearance="primary" intent="warning"><Link activeClass="active" to="Printing" spy={true} smooth={true}>3D Printing</Link></Button>
-                        <Button height={50} margin="2%" appearance="primary" intent="warning"><Link activeClass="active" to="ShellScripts" spy={true} smooth={true}>Shell Scripts</Link></Button>
-                        <Button height={50} margin="2%" appearance="primary" intent="warning">My latest Python project</Button>
+                            <Link activeClass="active" to="Bio" spy={true} smooth={true}>
+                                <Heading size={900}>About Me</Heading>
+                            </Link>
+                        <button className="section_button"><Link activeClass="active" to="Printing" spy={true} smooth={true}>3D Printing</Link></button>
+                        <button className="section_button"><Link activeClass="active" to="ShellScripts" spy={true} smooth={true}>Shell Scripts</Link></button>
+                        <button className="section_button">My latest Python project</button>
                     </ul>
-                </Pane>
+                </Pane> */}
 
                 {/* <header>Check out my:</header>
                 <Button
