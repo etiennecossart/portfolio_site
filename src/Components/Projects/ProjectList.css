@@ -1,0 +1,5 @@
+.project-list-main{
+    min-height: 100vh;
+    background-color: var(--other_white);
+    padding: 5%;
+}
