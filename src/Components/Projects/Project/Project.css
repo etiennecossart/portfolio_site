@@ -1,16 +1,60 @@
-.project-main{
+/* .project-main{
     background-color: var(--light_gray_background);
-    margin: 50px;
-    padding: 2%;
     border-radius: 10px;
     box-shadow: black;
+    /* padding: 20px 0; */
+
+.project-main{
+  /* padding: 14px 0; */
+  background: var(--light_gray_background);
+  max-width: 100%;
+  margin: 18px auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+}
+
+.project-heading{
+  background: var(--etienne_text);
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+/* .project-header{
+  di
+} */
+
+.project-title-line{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
+.project-content{
+  height: 0;
+  opacity: 0;
+  display: flex;
+  overflow: hidden;
+  transition: 0.5s;}
 
+.project-content.show{
+  height: 100%;
+  opacity: 1;
+  transition: 0.5s;
+}
+/* 
 .project-body-text{
     margin-top: 2%;
     line-height: 125%;
+}
+
+.project-github{
+  width: 50px;
+  height: 50px;
 }
 
 .grow {
@@ -28,4 +72,4 @@
   }
   .grow:hover {
     height: 145px;
-  }
+  } */
